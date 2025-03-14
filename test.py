@@ -1,9 +1,10 @@
-import os
 import hashlib
 
-# Added module docstring to avoid 'missing-module-docstring' error
+# Module docstring added
 """
-Module to demonstrate various functions with examples of good and bad practices
+This module demonstrates the use of insecure functions and hashing algorithms 
+for educational purposes. It includes functions to handle passwords and 
+generate weak hashes like MD2.
 """
 
 def insecure_password_handling():
