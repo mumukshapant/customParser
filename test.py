@@ -9,7 +9,7 @@ generate weak hashes like MD2.
 
 def insecure_password_handling():
     """
-    A function that demonstrates insecure password handling.
+    A function that demonstrates insecure passwords handling.
     In a real-world scenario, this should not be hardcoding passwords.
     """
     password = "1234"
