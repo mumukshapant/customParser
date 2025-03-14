@@ -9,7 +9,7 @@ import non_existent_module  # E0401: Unable to import 'non_existent_module'
 result =[] #usused variable
 
 def insecure_function():
-    myVariable = 10878787 #snake_case naming error
+    myVariable = 10878 #snake_case naming error
 
     user_input = input("Enter something: ")
     os.system(f"echo {user_input}")  # Vulnerable to command injection
